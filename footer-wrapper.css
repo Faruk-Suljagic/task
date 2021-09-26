@@ -1,0 +1,92 @@
+.main-wrapper {
+  padding-bottom: 0 !important;
+  padding-right: 0 !important;
+}
+.footer-wrapper {
+  justify-content: center;
+  align-items: center;
+  height: 20vh !important;
+}
+
+.footerLogoImg {
+  background-image: url(./images/footerLogo.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent !important;
+}
+.footerInput {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #ebebeb;
+  padding: 46px 0px 45px 56px;
+  margin: 0 !important;
+}
+.footerInput p {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 32px;
+  color: #232b4f;
+  margin: 0;
+  padding-bottom: 26px;
+}
+.inputbutton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputbutton input {
+  border: 2px solid #232b4f;
+  box-sizing: border-box;
+  width: 418px;
+  height: 46px;
+  background-color: transparent;
+  margin-right: 8px;
+}
+.inputbutton input::placeholder {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #232b4f;
+  padding: 16px 0px 19px 25px;
+}
+.signup {
+  margin: 0 !important;
+}
+
+.footerLogos {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 48px;
+}
+.socialMedia {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2rem;
+  flex: 1;
+}
+.socialMedia img {
+  padding: 0px 24px;
+}
+.firstsponsor {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 2;
+}
+.secondsponsor {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 2;
+}

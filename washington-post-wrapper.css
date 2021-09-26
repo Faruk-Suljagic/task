@@ -1,0 +1,89 @@
+.washington-post-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+  height: 323px;
+  width: 100%;
+  background-image: url(./images/aboutflag.png);
+  box-shadow: inset 0 0 0 2000px #ebebebd8;
+}
+.washington-post-header p {
+  font-family: "PT Serif", serif;
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #232b4f;
+}
+.washington-post-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 75px 117.5px;
+  background-color: #e4f2fc;
+  margin: 2px 0px;
+}
+.wp-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: #e4f2fc;
+
+  width: 100%;
+}
+.wp-content {
+  flex: 1;
+  padding: 0px 27.5px;
+  text-align: left;
+}
+.wp-content-paragraph {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #232b4f;
+}
+.wp-line {
+  margin: 41px 0px 26px 0px;
+  width: 66px;
+  height: 2px;
+  background-color: #cf2d2d;
+}
+.wp-content-author {
+  width: 70%;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  color: #cf2d2d;
+}
+.washington-post-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/aboutflag.png);
+  background-position: bottom;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px #e4f2fcd1;
+  height: 137px;
+  width: 100%;
+}
+.washington-post-button button {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  width: 213px;
+  height: 59px;
+  left: 614px;
+  top: 3691px;
+  background: #313959;
+  color: #fff;
+  border: none;
+}

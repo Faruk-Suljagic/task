@@ -1,0 +1,232 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  min-width: 100%;
+  overflow: hidden;
+  /* background-color: green; */
+}
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./images/liberty.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: rgb(149, 0, 0); */
+  box-shadow: inset 0 0 0 2000px rgba(208, 0, 0, 0.682);
+  background-color: rgba(0, 0, 0, 0.682);
+  width: 100%;
+  min-height: 1000px;
+  height: auto;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 8.5rem;
+  /* background-color: blue; */
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+.links {
+  display: flex;
+  align-items: center;
+  flex: 4;
+  border-right: 1px solid lightcoral;
+  border-left: 1px solid lightcoral;
+}
+.links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: #fff;
+}
+.links ul li {
+  text-transform: uppercase;
+  font-family: "PT Serif", serif;
+  padding: 0px 43px 0px 43px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.links ul li:hover {
+  text-decoration: 3px solid underline;
+  padding-bottom: 3px;
+  cursor: pointer;
+  text-underline-offset: 3px;
+}
+.bill-clinton {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.clinton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.forward {
+  font-family: "Caveat", cursive !important;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+}
+.name {
+  font-family: "PT Serif";
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.cover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: 90%;
+  width: 90%;
+}
+.cover-text {
+  flex: 2;
+}
+.cover-text-wrapper {
+  width: 540px;
+}
+.cover-text p {
+  font-family: "PT Serif";
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+.cover-text-middle {
+  padding: 33px 0px 39px 0px !important;
+}
+.headline {
+  font-size: 50px;
+  font-weight: bold !important;
+}
+.cover-image {
+  display: flex;
+  flex: 4;
+  align-items: center;
+  justify-content: center;
+}
+.book-img {
+  position: absolute;
+  z-index: 999;
+  width: 600px;
+}
+.frame-img {
+  position: relative;
+  bottom: -25px;
+  right: -20px;
+  width: 360px;
+}
+
+.cover-buttons button {
+  padding: 15px 42px;
+  font-family: "PT Serif";
+  color: #fff !important;
+  font-size: 16px;
+  cursor: pointer;
+}
+.buy {
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+.sample {
+  border: none;
+  background-color: transparent;
+}
+.arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+}
+.arrow img {
+  margin: 50px 47px;
+  cursor: pointer;
+}
+@media only screen and (min-width: 800.5px) {
+  .burger {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .navbar {
+    margin-top: 5px;
+  }
+  .bill-clinton {
+    display: none;
+  }
+  .burger {
+    flex: 2;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .burger ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+  }
+  .burger ul li {
+    width: 40px;
+    height: 5px;
+    margin: 3px 0px;
+    background-color: black;
+  }
+  .hero-wrapper {
+    min-height: 700px;
+  }
+  .headline {
+    font-size: 20px;
+  }
+  .cover-text-wrapper {
+    width: 95%;
+  }
+  .links {
+    display: none;
+  }
+  .cover-image {
+    display: none;
+  }
+  .book-img {
+    display: none;
+  }
+  .frame-img {
+    display: none;
+  }
+  .logo {
+    margin: 0;
+  }
+}

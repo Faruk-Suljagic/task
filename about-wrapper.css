@@ -1,0 +1,187 @@
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  background-color: red;
+}
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  min-height: 800px;
+
+  background-image: url("./images/aboutflag.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgba(224, 255, 255, 0.833);
+}
+.para-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 75%;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 36px;
+  color: #353535;
+  padding: 0%;
+}
+.about-the-book-header {
+  margin-top: 98px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.headline-bar {
+  width: 80%;
+  display: flex;
+}
+.about-the-book {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0;
+  line-height: 53px;
+  color: #232b4f;
+}
+.paragraph {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.paragraph-one {
+  width: 576px;
+  text-align: left;
+  line-height: 30px;
+  margin-right: 10px;
+}
+
+.paragraph-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 576px;
+  text-align: left;
+  line-height: 36px !important;
+  margin-left: 10px;
+}
+
+/* .paragraph-two p {
+  margin: 0;
+} */
+
+.para-buy {
+  padding: 14px 37px;
+  background: #313959;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  width: 183px;
+  color: #fff;
+  border: none;
+  margin-top: 31px;
+}
+.about-quote {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 392px;
+  background-color: #313959;
+  position: relative;
+  margin: 0px auto;
+  z-index: 99;
+  top: -12rem;
+}
+.quoteimage {
+  background-image: url("./images/quoteone.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+}
+.quotetext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  /* background-color: green; */
+}
+.quote-wrap {
+  width: 476px;
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.president-name {
+  font-size: 16px;
+}
+@media only screen and (max-width: 1445px) {
+  .para-wrapper {
+    width: 100%;
+  }
+  .paragraph {
+    display: flex;
+    flex-direction: column;
+  }
+  .paragraph-one {
+    border-bottom: 1px solid black;
+    width: auto;
+    padding: 0px 10px;
+  }
+  .paragraph-two {
+    width: auto;
+    padding: 0px 10px;
+  }
+  .about-section {
+    min-height: 1620px;
+  }
+  .about-the-book-header {
+    justify-content: center;
+  }
+  .headline-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    width: 90%;
+  }
+  .quoteimage {
+    min-height: 200px;
+    width: 100%;
+    background-position: top;
+  }
+  .quote-wrap {
+    font-size: 12px !important;
+    line-height: 30px;
+  }
+  .quotetext {
+    width: 80%;
+  }
+  .about-quote {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .quote-wrap {
+    width: 100%;
+  }
+  .about-first {
+    margin: 0;
+  }
+  .about-second {
+    margin: 0;
+  }
+}
