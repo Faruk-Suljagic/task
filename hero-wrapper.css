@@ -176,6 +176,14 @@ body {
   margin: 50px 47px;
   cursor: pointer;
 }
+@media only screen and (max-width: 1445px) {
+  .book-img {
+    width: 300px;
+  }
+  .frame-img {
+    width: 180px;
+  }
+}
 @media only screen and (min-width: 800.5px) {
   .burger {
     display: none;

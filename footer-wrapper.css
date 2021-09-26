@@ -1,11 +1,12 @@
 .main-wrapper {
   padding-bottom: 0 !important;
   padding-right: 0 !important;
+  padding-top: 0 !important;
 }
 .footer-wrapper {
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  height: 20vh !important;
+  height: 10rem !important;
 }
 
 .footerLogoImg {
@@ -89,4 +90,45 @@
   justify-content: flex-end;
   align-items: center;
   flex: 2;
+}
+
+@media only screen and (max-width: 1445px) {
+  .footer-wrapper {
+    justify-content: flex-start;
+    align-items: center;
+    height: 28rem !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .main-wrapper {
+    padding: 0 !important;
+  }
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column !important;
+    height: auto !important;
+
+    /* height: 100vh !important; */
+  }
+  .lastLogo {
+    flex: unset;
+    width: 90%;
+    padding: 30px;
+  }
+  .footerInput {
+    padding: 40px 50px;
+  }
+  .inputbutton {
+    flex-direction: column;
+  }
+  .inputbutton input {
+    width: 90%;
+    margin: 10px 0px;
+  }
+  .footerLogos {
+    flex-direction: column;
+  }
+  .footerLogos div {
+    padding: 10px 0px;
+  }
 }

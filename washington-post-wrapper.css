@@ -87,3 +87,21 @@
   color: #fff;
   border: none;
 }
+@media only screen and (max-width: 800px) {
+  .washington-post-content {
+    padding: 20px 20px;
+  }
+  .washington-post-header p {
+    font-size: 50px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  .wp-content-wrapper {
+    flex-direction: column;
+  }
+  .wp-content {
+    padding: 0;
+    flex: unset !important;
+    width: 95%;
+  }
+}
