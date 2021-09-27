@@ -41,12 +41,17 @@
   justify-content: flex-start;
 }
 .inputbutton input {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
   border: 2px solid #232b4f;
   box-sizing: border-box;
   width: 418px;
   height: 46px;
   background-color: transparent;
   margin-right: 8px;
+  padding: 16px 0px 19px 25px;
 }
 .inputbutton input::placeholder {
   font-family: "PT Serif";
@@ -55,7 +60,7 @@
   font-size: 16px;
   line-height: 21px;
   color: #232b4f;
-  padding: 16px 0px 19px 25px;
+  /* padding: 16px 0px 19px 25px; */
 }
 .signup {
   margin: 0 !important;
@@ -97,6 +102,9 @@
     justify-content: flex-start;
     align-items: center;
     height: 28rem !important;
+  }
+  .footerInput {
+    padding: 16px 25px 19px 25px;
   }
 }
 @media only screen and (max-width: 800px) {

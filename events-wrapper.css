@@ -11,6 +11,9 @@
   flex-direction: row;
   width: 100%;
 }
+.events-content-wrapper a {
+  text-decoration: none;
+}
 .event-box {
   flex: 1;
 }
@@ -44,6 +47,7 @@
 .event-content {
   padding: 0px 96px 0px 0px;
   width: auto;
+  cursor: pointer;
 }
 
 .event-date {
